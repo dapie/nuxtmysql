@@ -57,6 +57,11 @@ import Fas from '~/components/Fas.vue'
 import Modal from '~/components/Modal.vue'
 
 export default {
+  head () {
+    return {
+      title: "Операции с базой данных MySql",
+    }
+  },
   components: {
     Header,
     Footer,
